@@ -1006,11 +1006,12 @@ textarea {
   /* margin-bottom: 10px; */
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .form-field input{
   margin: 0;
-  padding: 14px 14px;
+  padding: 14px 14px 14px 42px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -1045,6 +1046,16 @@ textarea {
 .form-field:focus textarea {
   border: 1px solid #2196F3;
 }
+
+.form-imput:focus input ~ .form-icon {
+  fill: #2196f3;
+}
+
+/* .form-icon{
+  fill: #2196f3;
+} */
+
+
 
 
 .form-field textarea{
@@ -1104,6 +1115,8 @@ textarea {
   padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 
 .policy-label{
@@ -1114,11 +1127,32 @@ textarea {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--p-text-color);
+  margin-left: 8px;
 }
 
 .policy-label a{
   color: var(--second-text-color);
   text-decoration: underline;
+}
+
+.policy-block input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+}
+
+.form-icon{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+
+  transform: translateY(-0);
+
+  display: inline-block;
+
+  width: 15px;
+  height: 15px;
 }
 
 /*------------------ кнопки с YouTube ------------------*/
