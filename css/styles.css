@@ -744,7 +744,9 @@ p.section-p-team-text {
   border-radius: 4px;
   padding: 6px 22px;
 
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+              color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   /*outline: 1px solid green;*/
 }
@@ -952,14 +954,136 @@ p.section-p-text-port {
 }
 
 
-.fill-wind{
+/* .fill-wind{
   text-align: center;
   padding: 150px;
-  
-  
+} */
+
+.modal-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
 }
 
 
+
+
+.modal {
+}
+
+.form{
+  padding: 40px 40px;
+}
+
+.modal-box{
+  display: flex;
+  flex-direction: column;
+
+}
+
+textarea {
+  resize: none;
+}
+
+.form-label{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-bottom: 4px;
+}
+
+.form-field{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field input{
+  margin: 0;
+  padding: 14px 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: rgba(117, 117, 117, 0.5);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.form-field:hover input,
+.form-field:hover textarea {
+  border: 1px solid #2196F3;
+}
+
+.form-field:focus input,
+.form-field:focus textarea {
+  border: 1px solid #2196F3;
+}
+
+
+.form-field textarea{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  padding: 12px 12px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.btn-form-send{
+  background: #2196F3;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  border-radius: 4px;
+  border: #2196F3;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  padding: 10px 56px;
+
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-form-send:hover{
+  background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn-send{
+  text-align: center;
+}
 
 
 /*------------------ кнопки с YouTube ------------------*/
