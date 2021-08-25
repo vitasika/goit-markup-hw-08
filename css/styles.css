@@ -914,9 +914,7 @@ p.section-p-text-port {
   background-color: var(--background-head-color);
 
   transform: translate(-50%, -50%) scale(1);
-
   transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   opacity: 1;
 
 }
@@ -946,6 +944,8 @@ p.section-p-text-port {
   right: 8px;
 
   cursor: pointer;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-modal-closed:hover,
@@ -974,8 +974,8 @@ p.section-p-text-port {
 
 
 
-.modal {
-}
+/* .modal {
+} */
 
 .form{
   padding: 40px 40px;
@@ -998,12 +998,12 @@ textarea {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--p-text-color);
   margin-bottom: 4px;
 }
 
 .form-field{
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   display: flex;
   flex-direction: column;
 }
@@ -1014,14 +1014,25 @@ textarea {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
-  border-radius: 4px;
-  color: rgba(117, 117, 117, 0.5);
+  border-radius: 4px;  
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
 
 
@@ -1044,7 +1055,6 @@ textarea {
   line-height: 1.14;
   padding: 12px 12px;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -1085,6 +1095,31 @@ textarea {
   text-align: center;
 }
 
+.modal-box .form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.policy-block{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.policy-label{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--p-text-color);
+}
+
+.policy-label a{
+  color: var(--second-text-color);
+  text-decoration: underline;
+}
 
 /*------------------ кнопки с YouTube ------------------*/
 
