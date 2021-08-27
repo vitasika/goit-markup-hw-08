@@ -474,46 +474,65 @@
 
           </section>
 
-        <section class="footer-second-block">
-          <div class="footer-join">
-            <h3 class="footer-join-text">ПРИСОЕДИНЯЙТЕСЬ</h3>
-            <ul class="footer-join-link">
-              <li class="footer-social">
-                <a href=""  class="footer-btn-join">
-                  <svg class="footer-btn-icon">
-                    <use href="./img/icon.svg#icon-instagram"></use>
-                  </svg>                          
-                </a>
-              </li>
+          <section class="footer-second-block">
+            <div class="footer-join">
+              <h3 class="footer-join-text">ПРИСОЕДИНЯЙТЕСЬ</h3>
+              <ul class="footer-join-link">
+                <li class="footer-social">
+                  <a href=""  class="footer-btn-join">
+                    <svg class="footer-btn-icon">
+                      <use href="./img/icon.svg#icon-instagram"></use>
+                    </svg>                          
+                  </a>
+                </li>
 
-              <li>
-                <a href=""  class="footer-btn-join">
-                  <svg class="footer-btn-icon">
-                    <use href="./img/icon.svg#icon-twitter"></use>
-                  </svg>                          
-                </a>
-              </li>
+                <li>
+                  <a href=""  class="footer-btn-join">
+                    <svg class="footer-btn-icon">
+                      <use href="./img/icon.svg#icon-twitter"></use>
+                    </svg>                          
+                  </a>
+                </li>
 
-              <li>
-                <a href="#"  class="footer-btn-join">
-                  <svg class="footer-btn-icon">
-                    <use href="./img/icon.svg#icon-facebook"></use>
-                  </svg>                          
-                </a>
-              </li>
+                <li>
+                  <a href="#"  class="footer-btn-join">
+                    <svg class="footer-btn-icon">
+                      <use href="./img/icon.svg#icon-facebook"></use>
+                    </svg>                          
+                  </a>
+                </li>
 
-              <li>
-                <a href=""  class="footer-btn-join">
-                  <svg class="footer-btn-icon">
-                    <use href="./img/icon.svg#icon-linkedin"></use>
-                  </svg>                          
-                </a>
-              </li>
+                <li>
+                  <a href=""  class="footer-btn-join">
+                    <svg class="footer-btn-icon">
+                      <use href="./img/icon.svg#icon-linkedin"></use>
+                    </svg>                          
+                  </a>
+                </li>
 
-            </ul>
-          </div>
+              </ul>
+            </div>
+              
+          </section>
+
+          <section class="footer-subscribe">
             
-        </section>
+            <h3 class="footer-subscribe-text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+
+            <label class="footer-subscribe-label">
+              <input type="text" class="" id="tel" placeholder="E-mail">
+            </label>
+
+            <div class="subscribe-send">
+              <button type="submit" class="btn-subscribe-send">Отправить</button>
+            </div>
+                
+            
+          </section>
+
+
+
+
         </div>       
 
         
@@ -522,7 +541,10 @@
     </footer>
 
 
-    <!-- modal window -->
+
+
+
+    <!-- ----------- modal window ----------- -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -540,7 +562,7 @@
                 
                 <svg class="form-icon">
                   <use href="./img/icon.svg#icon-modal-name"></use>
-                </svg>  
+                </svg>
                 
               </li>
                 
@@ -550,16 +572,18 @@
 
                 <svg class="form-icon">
                   <use href="./img/icon.svg#icon-modal-tel"></use>
-                </svg>  
+                </svg>
+
               </li>
   
               <li class="form-field">
                 <label for="mail" class="form-label">Почта</label>
-                <input type="text" name="mail" id="mail" placeholder=" ">
+                <input type="text" class="form-imput" name="mail" id="mail" placeholder=" ">
 
                 <svg class="form-icon">
                   <use href="./img/icon.svg#icon-modal-mail"></use>
-                </svg>  
+                </svg> 
+                 
               </li>
   
               <li class="form-field">
@@ -572,9 +596,13 @@
 
 
           <div class="policy-block">
-            <input type="checkbox" name="policy" value="" id="">
-              <label for="policy" class="policy-label">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a> </label>
-
+            
+              <label class="policy-label">
+                <input class="checkbox" type="checkbox" value="Соглашаюсь с рассылкой и принимаю" />
+                <span class="policy-icon"></span>
+                <span class="label">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span> 
+              </label>
+              
           </div>
           
           
@@ -598,19 +626,6 @@
 
 
     <script src="./js/modal.js"></script>
-
-
-
-
-    
-<!-- <p class="fill-wind">
-          наполнение окна
-        </p> -->
-
-
-
-
-
 
   </body>
 </html>
