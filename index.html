@@ -550,7 +550,7 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form class="form"  autocomplete="on">
+        <form autocomplete="on">
 
           <div role="group">
             <h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
@@ -590,7 +590,7 @@
   
               <li class="form-field">
                 <label for="comment" class="form-label">Комментарий</label>          
-                <textarea name="comment" id="comment" rows="10"  autocomplete="off" placeholder="Введите текст"></textarea>
+                <textarea class="form-textarea" name="comment" id="comment" rows="10"  autocomplete="off" placeholder="Введите текст"></textarea>
               </li>        
              
             </ul>  
@@ -617,17 +617,21 @@
         </form>
 
                 
-        <button data-modal-close class="btn-modal-closed"></button>
+        <button data-modal-close class="btn-modal-closed">
+          
+          <svg class="modal-icon-closed">
+            <use href="./img/icon.svg#icon-closed">
+            </use>
+          </svg>
+
+        </button>
 
       </div>
     </div>
 
 
 
-
-
-
-
+    <!-- ----------- script window ----------- -->
 
     <script src="./js/modal.js"></script>
 
