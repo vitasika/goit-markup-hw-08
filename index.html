@@ -20,65 +20,72 @@
   </head>
 
   <body class="">
-    <header class="header-box">
-      <div class="container main-nav">
-        <nav class="navigation">
+    <header class="header">
+      <div class="container">
+        <div class="navy">
+          <nav class="navy__block">
           
-          <!-- logo main and footer -->
+            <!-- logo main and footer -->
 
-          <a href="./index.html" class="logo">Web<span class="logo__dark ">Studio</span></a>
+            <a href="./index.html" class="logo">Web<span class="logo__dark ">Studio</span></a>
 
-          <!-- button navi header -->
+            <!-- button navi header -->
 
-          <ul class="site-nav">
-            <li class="nav-item"><a href="#" class="site-navi-link current">Студия</a></li>
-            <li class="nav-item"><a href="./portfolio.html" class="site-navi-link">Портфолио</a></li>
-            <li class="nav-item"><a href="#" class="site-navi-link">Контакты</a></li>
-          </ul>
-        </nav>
+            <ul class="navy__list">
+              <li class="navy__item"><a href="#" class="navy__link current">Студия</a></li>
+              <li class="navy__item"><a href="./portfolio.html" class="navy__link">Портфолио</a></li>
+              <li class="navy__item"><a href="#" class="navy__link">Контакты</a></li>
+            </ul>
+          </nav>
+        
 
-        <!-- contakt header -->
+          <!-- contakt header -->
 
-        <div>
-          <ul class="site-nav-adress">
+          <div>
+            <ul class="navy__contakt">
 
-            <li class="nav-adress">
-              <a href="mailto:info@devstudio.com" class="contakt-head-mail"> 
-                <svg class="header-mail"> 
-                  <use href="./img/icon.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
+              <li class="navy__adress">
+                <a href="mailto:info@devstudio.com" class="navy__link"> 
+                  <svg class="navy__mail"> 
+                    <use href="./img/icon.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
 
-            <li class="nav-adress">
-              <a href="tel:+380961111111" class="contakt-head-tel">
-                <svg class="header-phone"> 
-                  <use href="./img/icon.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
+              <li class="navy__adress">
+                <a href="tel:+380961111111" class="navy__link">
+                  <svg class="navy__phone"> 
+                    <use href="./img/icon.svg#icon-phone"></use>
+                  </svg>
+                  +38 096 111 11 11
+                </a>
+              </li>
 
-          </ul>
+            </ul>
+
+          </div>
+
         </div>
+
       </div>
+
     </header>
 
     <main>
       <!-- block hero -->
 
-      <section class="hero-box overlay">
+      <section class="herobox overlay">
         <div class="container">
-            <div class="hero-baner">
-              <h1 class="section-title-hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВAШЕГО БИЗНЕСА</h1>
-              <button class="button-hero" data-modal-open>Заказать услугу</button>
+            <div>
+              <h1 class="herobox__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВAШЕГО БИЗНЕСА</h1>
+              <button class="herobox__button" data-modal-open>Заказать услугу</button>
             </div>
           </div>
       </section>
 
       <!-- section to work -->
-      <section class="work-box">
+      <section class="workbox">
 
         <div class="container">
 
@@ -126,7 +133,7 @@
 
         <div class="container">
 
-          <div class="work-box-second">
+          <div>
             <h2 class="section-title-work">Чем мы занимаемся</h2>
             <ul class="section-work-foto">
 
