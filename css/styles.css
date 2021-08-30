@@ -460,7 +460,7 @@ height: auto;
 
 /*------------------ contakt footer ------------------*/
 
-.contakt-footer-color,
+.footer__adress,
 .footer__meta {
   font-family: Roboto;
   font-style: normal;
@@ -471,17 +471,17 @@ height: auto;
   
 }
 
-.contakt-footer-color {
+.footer__adress {
   color: var(--background-head-color);
   padding-top: 20px;
   margin-bottom: 9px;
 }
 
-.footer__meta, .contakt-footer-addres {
+.footer__meta, .footer__content {
   color: var(--contakt-footer-color);
 }
 
-.contakt-footer-addres {
+.footer__content {
   display: flex;
   flex-direction: column;
 }
