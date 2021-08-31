@@ -7,6 +7,7 @@
   --background-comand-color: #f5f4fa;
   --background-footer-color: #2f303a;
   --p-text-color: #757575;
+  --hover-focus-color: #188CE8;
   --contakt-footer-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -44,6 +45,10 @@ img {
 display: block;
 width: 100%;
 height: auto;
+}
+
+textarea {
+  resize: none;
 }
 
 .container {
@@ -127,17 +132,17 @@ height: auto;
   
 }
 
-.work-box-first{
+.workbox__items{
   width: 1170px;
   height: 251px;
 
 }
 
-.work-box-foto{
+.work{
   padding-bottom: 94px;  
 }
 
-.work-text::before{
+.workbox__item::before{
   display: block;
   content: "";
   width: 270px;
@@ -150,27 +155,27 @@ height: auto;
   margin-bottom: 30px;
 }
 
-.icon-radar::before {
+.icon__radar::before {
   background-image: url("../img/antenna.svg"); 
   background-size: 70px 70px;
 }
 
-.icon-clock::before {
+.icon__clock::before {
   background-image: url("../img/clock.svg");
   background-size: 70px 70px; 
 }
-.icon-diagram::before {
+.icon__diagram::before {
   background-image: url("../img/diagram.svg");
   background-size: 70px 70px; 
 }
 
-.icon-astronaut::before {
+.icon__astronaut::before {
   background-image: url("../img/astronaut.svg");
   background-size: 70px 70px; 
 }
 
 /*------------------ Team box ------------------*/
-.team-box {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background: var(--background-comand-color);
@@ -308,7 +313,7 @@ height: auto;
 
 .footer__submit:hover,
 .footer__submit:focus {
-  background: #188CE8;
+  background: var(--hover-focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
@@ -520,41 +525,41 @@ height: auto;
 .herobox__button:hover,
 .herobox__button:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #188CE8;
+  background-color: var(--hover-focus-color);
   cursor: pointer;
 }
 
 /*------------------ section to work ------------------*/
 
-.work-hidden-text{
+.workbox__hidden{
   text-align: center;
   display: none;
 }
 
-.section-work {
+.workbox__list {
   display: flex;
   width: 1170px;
   height: 100px;
 }
 
-.work-text{  
+.workbox__item{  
   width: 270px;
   height: 120px;
 }
 
-.section-work .work-text:not(:last-child) {
+.workbox__list .workbox__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-work-foto {
+.work__list {
   display: flex;
 }
 
-.section-work-foto .position-foto-work:not(:last-child) {
+.work__list .work__item:not(:last-child) {
   margin-right: 30px;
 }
 
-h3.section-title-text {
+h3.workbox__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -566,7 +571,7 @@ h3.section-title-text {
   margin-bottom: 10px;
 }
 
-p.section-p-text {
+p.workbox__text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -577,7 +582,7 @@ p.section-p-text {
   margin-bottom: 94px;
 }
 
-h2.section-title-work {
+h2.work__subtitle, .team__subtitle, .clients__subtitle {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -589,7 +594,7 @@ h2.section-title-work {
 }
 
 
-.work-btn{
+.work__text{
   display: flex;
   position: absolute;
   bottom: 0px;
@@ -610,14 +615,14 @@ h2.section-title-work {
   color: #FFFFFF;
 }
 
-.work-foto-blok{
+.work__pic{
   position: relative;
 }
 
 
 /*------------------ my team ------------------*/
 
-h3.section-team-text {
+h3.team__name {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -629,7 +634,7 @@ h3.section-team-text {
   margin-bottom: 10px;
 }
 
-p.section-p-team-text {
+p.team__text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -641,23 +646,23 @@ p.section-p-team-text {
   padding-bottom: 16px;
 }
 
-.manager-box {
+.team__pic {
   width: 270px;
 }
 
-.team-line {
+.team__list {
   display: flex;
 }
 
-.team-line .line-manager:not(:last-child) {
+.team__list .team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-title-work {
+.work__subtitle, .team__subtitle, .clients__subtitle {
   margin-bottom: 50px;
 }
 
-.line-manager {
+.team__item {
   background: #ffffff;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -665,12 +670,12 @@ p.section-p-team-text {
   border-radius: 0px 0px 4px 4px;
 }
 
-.manager-text {
+.team__card {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.icon-team{
+.social__link{
   display: inline-block;
   height: 44px;
   width: 44px;
@@ -682,7 +687,7 @@ p.section-p-team-text {
   border-radius: 50%;
 }
 
-.card-position{
+.social {
   display: flex;  
   justify-content: space-between;  
   align-items: center;
@@ -698,7 +703,7 @@ p.section-p-team-text {
   background: var(--background-comand-color);
 }
 
-.client-link{
+.clients__btn{
   display: flex;
   justify-content: center;
   width: 170px;
@@ -709,7 +714,7 @@ p.section-p-team-text {
   background-color: var(--background-head-color);
 }
 
-.client-btn-link{  
+.clients__logo{  
   width: 106px;
   height: 60px;
   display: flex;
@@ -719,29 +724,29 @@ p.section-p-team-text {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-block{
+.clients__list{
   display: flex;
   justify-content: space-between;
 }
 
-.client-link:hover,
-.client-link:focus {
+.clients__btn:hover,
+.clients__btn:focus {
   border-color: var(--second-text-color);
   cursor: pointer;
 }
 
-.client-link:hover svg,
-.client-link:focus svg {
+.clients__btn:hover svg,
+.clients__btn:focus svg {
   fill: var(--second-text-color);
 }
 
-.team-box + .clients{
+.team + .clients{
   background: var(--background-head-color);
 }
 
 /*------------------ проба кнопок ------------------*/
 
-.btn-icon {
+.social__btn {
   padding: 0;
   border: none;
   border-radius: 50%;
@@ -757,7 +762,7 @@ p.section-p-team-text {
 
 
 
-.btn-icon-card {
+.social__icon {
   height: 20px;
   width: 20px;
   fill: #AFB1B8; 
@@ -765,14 +770,14 @@ p.section-p-team-text {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-icon:hover,
-.btn-icon:focus {
+.social__btn:hover,
+.social__btn:focus {
   background-color: var(--second-text-color);
   cursor: pointer;
 }
 
-.btn-icon:hover svg,
-.btn-icon:focus svg {
+.social__btn:hover svg,
+.social__btn:focus svg {
   fill: var(--second-text-logo-color);
 }
 
@@ -1026,9 +1031,7 @@ p.project__description {
 
 }
 
-textarea {
-  resize: none;
-}
+
 
 .modal__text{
   font-family: Roboto;
@@ -1125,7 +1128,7 @@ textarea {
 }
 
 .modal__send:hover{
-  background: #188CE8;
+  background: var(--hover-focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
@@ -1193,7 +1196,7 @@ textarea {
 
 .modal__form:focus ~ .modal__icon,
 .modal__form:hover ~ .modal__icon {
-  fill: #188CE8;
+  fill: var(--hover-focus-color);
   cursor: pointer;
   
 }
