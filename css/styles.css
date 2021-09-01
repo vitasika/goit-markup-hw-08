@@ -409,7 +409,7 @@ textarea {
 
 /*------------------ contakt header ------------------*/
 
-.navy__link {
+.navy__links {
   display: flex;
   height: 80px;
   color: var(--p-text-color);
@@ -425,13 +425,13 @@ textarea {
 }
 
 
-.navy__link:hover,
-.navy__link:focus {
+.navy__links:hover,
+.navy__links:focus {
   color: var(--second-text-color);
 }
 
-.navy__link:hover .navy__mail,
-.navy__link:hover .navy__phone {
+.navy__links:hover .navy__mail,
+.navy__links:hover .navy__phone {
   fill: var(--second-text-color);
 }
 
