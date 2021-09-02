@@ -10,7 +10,7 @@
   height: 600px; 
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, $overlay-left, $overlay-left, url("../img/baner-hero.jpg"));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/baner-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;  
@@ -45,13 +45,12 @@
   margin-right: auto;
   margin-left: auto;
   padding: 10px 32px;
-
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   
   &:hover, &:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: var(--hover-focus-color);
+    background-color: $hover-focus-color;
     cursor: pointer;  
     }
 }
