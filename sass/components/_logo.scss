@@ -1,0 +1,32 @@
+
+
+.logo,
+.logo__dark,
+.logo__white {
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: inherit;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: $second-text-color;
+  text-decoration: none;
+}
+
+.logo__dark {
+  color: $primary-text-color;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  color: $second-text-color;
+  text-decoration: none;
+}
+
+.logo__white {
+  color: $second-text-logo-color;
+}

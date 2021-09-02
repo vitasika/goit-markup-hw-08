@@ -1,0 +1,90 @@
+/*------------------ Work box ------------------*/
+
+h3.workbox__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  margin-bottom: 10px;
+}
+
+p.workbox__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--p-text-color);
+  margin-bottom: 94px;
+}
+
+.workbox {
+  background: $background-head-color;
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;  
+}
+
+.workbox__items{
+  width: 1170px;
+  height: 251px;
+}
+
+.workbox__item::before{
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.icon__radar::before {
+  background-image: url("../img/antenna.svg"); 
+  background-size: 70px 70px;
+}
+
+.icon__clock::before {
+  background-image: url("../img/clock.svg");
+  background-size: 70px 70px; 
+}
+.icon__diagram::before {
+  background-image: url("../img/diagram.svg");
+  background-size: 70px 70px; 
+}
+
+.icon__astronaut::before {
+  background-image: url("../img/astronaut.svg");
+  background-size: 70px 70px; 
+}
+
+.workbox__hidden{
+  text-align: center;
+  display: none;
+}
+
+.workbox__list {
+  display: flex;
+  width: 1170px;
+  height: 100px;
+}
+
+.workbox__item{  
+  width: 270px;
+  height: 120px;
+}
+
+.workbox__list .workbox__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+

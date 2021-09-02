@@ -1,0 +1,58 @@
+.herobox {
+  display: flex;
+  height: 600px;
+  background: #2f303a;
+  padding-top: 200px; 
+}
+
+.overlay{
+  max-width: 1600px;
+  height: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, $overlay-left, $overlay-left, url("../img/baner-hero.jpg"));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
+
+.herobox__title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $background-head-color;
+  margin-bottom: 30px;
+}
+
+.herobox__button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $background-head-color;
+  background: $second-text-color;
+  border-color: transparent;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  
+  &:hover, &:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--hover-focus-color);
+    cursor: pointer;  
+    }
+}
+
