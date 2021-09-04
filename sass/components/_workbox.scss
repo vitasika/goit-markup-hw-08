@@ -10,6 +10,18 @@ h3.workbox__subtitle {
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }
 
 p.workbox__text {
@@ -20,22 +32,44 @@ p.workbox__text {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--p-text-color);
-  margin-bottom: 94px;
+  
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 94px;
+  }
 }
 
 .workbox {
   background: $background-head-color;
   margin: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;  
+  
+  
+  
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .workbox__items{
-  width: 1170px;
-  height: 251px;
-}
 
-.workbox__item::before{
+  &::before {
   display: block;
   content: "";
   width: 270px;
@@ -46,7 +80,24 @@ p.workbox__text {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
+    height: 251px;
+  }
+  
 }
+
+
 
 .icon__radar::before {
   background-image: url("../img/antenna.svg"); 
@@ -73,18 +124,44 @@ p.workbox__text {
 }
 
 .workbox__list {
-  display: flex;
-  width: 1170px;
-  height: 100px;
+  
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    width: 1170px;
+    height: 100px;
+  }
+
+  & .workbox__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .workbox__item{  
-  width: 270px;
-  height: 120px;
+  
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 120px;
+  }
 }
 
-.workbox__list .workbox__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 
 
