@@ -86,9 +86,9 @@
 .clients__list{
 
   @media screen and (min-width: 480px) {
-    padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
   }
 
   @media screen and (min-width: 768px) {
@@ -102,6 +102,45 @@
   }
   
 }
+
+
+.clients__nane {  
+  // width: 210px;
+  height: 92px;
+  background: #ffffff; 
+
+  @media screen and (min-width: 480px) {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+
+    // flex-basis: calc((100% - 30px) / 2);
+    // margin-right: 30px;
+    // margin-bottom: 30px;    
+
+        // &:nth-last-child(-n + 2) {
+        //   margin-bottom: 0;
+        // }
+
+        // &:nth-child(2n) {
+        //   margin-right: 0;
+        // }
+    
+  }
+
+  @media screen and (min-width: 768px) {
+
+    flex-basis: calc((100% - 60px) / 3);
+    margin: 30px;
+    
+    background: #ffffff;        
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+
+}
+
+
 
 
 .social__btn {
@@ -147,6 +186,7 @@ h2.clients__subtitle {
   color: $primary-text-color;
 
   @media screen and (min-width: 480px) {
+    padding-bottom: 30px;
     
   }
 
@@ -158,30 +198,3 @@ h2.clients__subtitle {
 
 }
 
-
-.clients__nane{
-
-  @media screen and (min-width: 480px) {
-  
-  width: calc((100% - 30px) / 2);
-  margin-right: 30px;
-  margin-bottom: 15px;
-  background: #ffffff;
-
-  &:nth-last-child(-n + 2) {
-  margin-bottom: 0;
-    }
-
-  &:nth-child(2n) {
-  margin-right: 0;
-    }
-    
-  }
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1200px) {
-  }
-
-}
