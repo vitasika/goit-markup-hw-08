@@ -1,27 +1,27 @@
 .work{
-  padding-bottom: 94px;  
+  // padding-bottom: 94px;  
 }
 
 .work__list {
-  display: flex;
+  // display: flex;
 }
 
 .work__list .work__item:not(:last-child) {
-  margin-right: 30px;
+  // margin-right: 30px;
 }
 
 .work__text{
-  display: flex;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;  
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 370px;
+  // width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
   padding: 0px;
   margin: 0px;
-  align-items: center;
-  justify-content: center;  
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -36,7 +36,7 @@
 }
 
 .work__subtitle {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 h2.work__subtitle {

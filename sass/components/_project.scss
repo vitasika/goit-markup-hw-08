@@ -1,6 +1,6 @@
 .project {
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
 }
 
 .project__item {
@@ -19,7 +19,7 @@
 }
 
 .project__link{
-  display: block;
+  // display: block;
 
   &:hover .project__overlay,
   &:focus .project__overlay {
@@ -53,7 +53,7 @@ p.project__description {
 }
 
 .project__title {
-  display: inline-block;
+  // display: inline-block;
 }
 
 .project__card {

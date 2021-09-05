@@ -39,7 +39,7 @@
 /*------------------ contakt header ------------------*/
 
 .navy__links {
-  display: flex;
+  // display: flex;
   height: 80px;
   color: $p-text-color;
   font-family: Roboto;
@@ -86,32 +86,32 @@
 }
 
 .navy {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
 }
 
 .navy__block {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
 }
 
 .navy__list {
-  display: flex;
-  align-items: center;
-  margin-left: 93px;
+  // display: flex;
+  // align-items: center;
+  // margin-left: 93px;
 
     & .navy__item:not(:last-child) {
-    margin-right: 50px;
+    // margin-right: 50px;
     }
 
 }
 
 
 .navy__contakt{
-    display: flex;
+    // display: flex;
 }
 
 .navy__contakt .navy__adress + .navy__adress {
-  margin-left: 50px;
+  // margin-left: 50px;
 }
