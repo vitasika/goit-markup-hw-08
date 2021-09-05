@@ -1,2 +1,2 @@
-# goit-markup-hw-08
-https://vitasika.github.io/goit-markup-hw-08/
+# goit-markup-hw-07
+https://vitasika.github.io/goit-markup-hw-07/
