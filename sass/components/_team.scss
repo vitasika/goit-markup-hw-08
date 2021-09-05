@@ -1,7 +1,26 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
   background: $background-comand-color;
+
+   @media screen and (max-width: 480px) {
+     padding-top: 60px;
+     padding-bottom: 60px;    
+  }
+
+  @media screen and (min-width: 480px) {
+     padding-top: 60px;
+     padding-bottom: 60px;    
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+
 }
 
 h3.team__name {
@@ -29,15 +48,36 @@ p.team__text {
 }
 
 .team__pic {
-  width: 270px;
+
+  @media screen and (min-width: 480px) {
+     width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+  
 }
 
 .team__list {
   // display: flex;
 
-  & .team__item:not(:last-child) {
-  // margin-right: 30px;
+  @media screen and (min-width: 480px) {
+    
   }
+
+  @media screen and (min-width: 768px) {
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+  }
+
+  
 
   & .team__item:not(:last-child) {
   // margin-right: 30px;
@@ -53,6 +93,31 @@ p.team__text {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  @media screen and (max-width: 480px) {
+
+    &:not(:last-child) {
+    margin-bottom: 30px;
+    }
+
+  }
+
+  @media screen and (min-width: 480px) {
+
+    &:not(:last-child) {
+    margin-bottom: 30px;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) {
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+  }
+
 }
 
 .team__card {
@@ -63,7 +128,7 @@ p.team__text {
 .social__link{
   // display: inline-block;
   height: 44px;
-  // width: 44px;
+  width: 44px;
   
   background-size: 20px;
   background-color: $background-comand-color;
@@ -72,12 +137,29 @@ p.team__text {
   border-radius: 50%;
 }
 
-.social {
-  // display: flex;  
-  // justify-content: space-between;  
+.social {  
+  
   // align-items: center;
   padding-left: 32px;
   padding-right: 32px;
+
+   @media screen and (max-width: 480px) {
+    display: flex; 
+    justify-content: space-between;  
+    
+  }
+
+  @media screen and (min-width: 480px) {
+    display: flex; 
+    justify-content: space-between;  
+    
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 h2.team__subtitle {
@@ -89,4 +171,20 @@ h2.team__subtitle {
   text-align: center;
   letter-spacing: 0.03em;
   color: $primary-text-color;
+
+   @media screen and (max-width: 480px) {
+     margin-bottom: 30px;
+  }
+
+   @media screen and (min-width: 480px) {
+     margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+
+  }
+
+  @media screen and (min-width: 1200px) {
+
+  }
 }

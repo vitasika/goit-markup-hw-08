@@ -12,15 +12,12 @@ h3.workbox__subtitle {
   margin-bottom: 10px;
 
   @media screen and (min-width: 480px) {
-    width: 480px;
   }
 
   @media screen and (min-width: 768px) {
-    width: 768px;    
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
   }
 }
 
@@ -70,9 +67,9 @@ p.workbox__text {
 .workbox__items{
 
   &::before {
-  display: block;
-  content: "";
-  width: 270px;
+  // display: block;
+  // content: "";
+  // width: 270px;
   height: 120px;
   background: #F5F4FA;
   border-radius: 4px;  
