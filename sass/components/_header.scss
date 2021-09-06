@@ -1,5 +1,27 @@
 /*------------------ button navi header ------------------*/
 
+.logo_head{
+
+  
+  @media screen and (min-width: 480px) {
+     padding-top: 16px;
+     padding-bottom: 16px;
+     display: flex;
+     justify-content: flex-start;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+  }
+}
+
+
+
 .navy__link {
   // position: relative;
   // display: block;  
@@ -92,6 +114,7 @@
 }
 
 .navy__block {
+  height: 60px;
   // display: flex;
   // align-items: center;
 }

@@ -64,6 +64,19 @@ textarea {
 }
 
 /*------------------ button navi header ------------------*/
+@media screen and (min-width: 480px) {
+  .logo_head {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 .navy__link {
   font-family: Roboto;
   font-style: normal;
@@ -144,6 +157,10 @@ textarea {
 .header {
   background: #ffffff;
   border-bottom: 1px solid #ececec;
+}
+
+.navy__block {
+  height: 60px;
 }
 
 .herobox {
@@ -242,24 +259,18 @@ textarea {
   margin: 0px;
 }
 
+@media screen and (min-width: 480px) {
+  .workbox {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .workbox {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-}
-
-.workbox__items::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background: #F5F4FA;
-  border-radius: 4px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -309,6 +320,51 @@ p.workbox__text {
   }
 }
 
+.workbox__hidden {
+  text-align: center;
+  display: none;
+}
+
+.workbox__list .workbox__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .workbox__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1170px;
+    height: 100px;
+  }
+}
+
+.workbox__item::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .workbox__item {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .workbox__item {
+    width: 270px;
+    height: 120px;
+  }
+}
+
 .icon__radar::before {
   background-image: url("../img/antenna.svg");
   background-size: 70px 70px;
@@ -327,32 +383,6 @@ p.workbox__text {
 .icon__astronaut::before {
   background-image: url("../img/astronaut.svg");
   background-size: 70px 70px;
-}
-
-.workbox__hidden {
-  text-align: center;
-  display: none;
-}
-
-@media screen and (min-width: 1200px) {
-  .workbox__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 1170px;
-    height: 100px;
-  }
-}
-
-.workbox__list .workbox__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-@media screen and (min-width: 1200px) {
-  .workbox__item {
-    width: 270px;
-    height: 120px;
-  }
 }
 
 @media screen and (min-width: 480px) {
@@ -427,7 +457,7 @@ h3.team__name {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 p.team__text {
@@ -489,8 +519,8 @@ p.team__text {
 }
 
 .social {
-  padding-left: 32px;
-  padding-right: 32px;
+  width: 206px;
+  height: 44px;
 }
 
 @media screen and (max-width: 479px) {
@@ -501,6 +531,8 @@ p.team__text {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -512,6 +544,8 @@ p.team__text {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -844,7 +878,6 @@ h2.clients__subtitle {
 @media screen and (min-width: 480px) {
   .footer__subscribe {
     padding-top: 60px;
-    padding-bottom: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -988,6 +1021,12 @@ h2.clients__subtitle {
 
 .footer__meta, .footer__content {
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 480px) {
+  .footer__item {
+    padding-top: 9px;
+  }
 }
 
 .choice__title {

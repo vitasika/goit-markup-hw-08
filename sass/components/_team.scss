@@ -32,7 +32,7 @@ h3.team__name {
   text-align: center;
   letter-spacing: 0.03em;
   color: $primary-text-color;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 p.team__text {
@@ -137,22 +137,24 @@ p.team__text {
   border-radius: 50%;
 }
 
-.social {  
+.social {
+  width: 206px;
+  height: 44px;
   
   // align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
-
-   @media screen and (max-width: 479px) {
+  
+  @media screen and (max-width: 479px) {    
     display: flex; 
-    justify-content: space-between;  
-    
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 480px) {
     display: flex; 
-    justify-content: space-between;  
-    
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 768px) {

@@ -5,7 +5,8 @@
   margin: 0px;  
   
   @media screen and (min-width: 480px) {
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 768px) {
@@ -18,20 +19,7 @@
   }
 }
 
-.workbox__items{
-
-  &::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background: #F5F4FA;
-  border-radius: 4px;  
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-  }
+.workbox__items {  
 
   @media screen and (min-width: 480px) {
     
@@ -93,32 +81,19 @@ p.workbox__text {
 }
 
 
-.icon__radar::before {
-  background-image: url("../img/antenna.svg"); 
-  background-size: 70px 70px;
-}
-
-.icon__clock::before {
-  background-image: url("../img/clock.svg");
-  background-size: 70px 70px; 
-}
-.icon__diagram::before {
-  background-image: url("../img/diagram.svg");
-  background-size: 70px 70px; 
-}
-
-.icon__astronaut::before {
-  background-image: url("../img/astronaut.svg");
-  background-size: 70px 70px; 
-}
 
 .workbox__hidden{
   text-align: center;
   display: none;
 }
 
-.workbox__list {
+
+
+.workbox__list {  
   
+  & .workbox__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 
   @media screen and (min-width: 480px) {
     
@@ -134,28 +109,56 @@ p.workbox__text {
     height: 100px;
   }
 
-  & .workbox__item:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 
-.workbox__item{  
-  
+.workbox__item{
 
+  &::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  }
+
+  
   @media screen and (min-width: 480px) {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
     
   }
-
-  @media screen and (min-width: 768px) {
-      
-  }
-
+  
   @media screen and (min-width: 1200px) {
     width: 270px;
     height: 120px;
   }
 }
 
+.icon__radar::before {
+background-image: url("../img/antenna.svg"); 
+background-size: 70px 70px;
+}
+
+.icon__clock::before {
+background-image: url("../img/clock.svg");
+background-size: 70px 70px; 
+}
+.icon__diagram::before {
+background-image: url("../img/diagram.svg");
+background-size: 70px 70px; 
+}
+
+.icon__astronaut::before {
+background-image: url("../img/astronaut.svg");
+background-size: 70px 70px; 
+}
 
 
 
