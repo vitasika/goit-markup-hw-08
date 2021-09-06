@@ -30,6 +30,20 @@
 
             <div class="logo_head"><a href="./index.html" class="logo">Web<span class="logo__dark ">Studio</span></a></div>
 
+            <!-- кнопка меню от 480px -->
+
+            <button type="button" class="menu-button is-open" js-menu-container>
+              <svg width="40" height="40" aria-label="Переключатель мобильного окна">
+                <use class="icon-cross" href="./img/icon.svg#icon-cross" js-close-menu></use>
+                <use class="icon-menu" href="./img/icon.svg#icon-menu" js-open-menu></use>
+              </svg>
+            </button>
+
+
+
+
+
+
             <!-- button navi header -->
 
             <!-- <ul class="navy__list">
@@ -612,7 +626,7 @@
                 <input class="policy__checkbox" type="checkbox" value="Соглашаюсь с рассылкой и принимаю" />
                 <span class="policy-icon"></span>
                 
-                <span>Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span> 
+                <span class="policy-text">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span> 
               </label>
               
           </div>
@@ -649,8 +663,8 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script>
 
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 
   </body>

@@ -66,14 +66,9 @@ textarea {
 /*------------------ button navi header ------------------*/
 @media screen and (min-width: 480px) {
   .logo_head {
-    padding-top: 16px;
-    padding-bottom: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
   }
 }
 
@@ -159,8 +154,37 @@ textarea {
   border-bottom: 1px solid #ececec;
 }
 
-.navy__block {
-  height: 60px;
+@media screen and (min-width: 480px) {
+  .navy__block {
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .menu-button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .menu-button .icon-cross {
+    display: none;
+  }
+  .menu-button.is-open .icon-cross {
+    display: block;
+  }
+  .menu-button.is-open .icon-menu {
+    display: none;
+  }
 }
 
 .herobox {
@@ -383,6 +407,12 @@ p.workbox__text {
 .icon__astronaut::before {
   background-image: url("../img/astronaut.svg");
   background-size: 70px 70px;
+}
+
+@media screen and (max-width: 479px) {
+  .work {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -1255,6 +1285,13 @@ p.project__description {
   margin-bottom: 12px;
 }
 
+@media screen and (min-width: 480px) {
+  .modal__heading {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
 .modal__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1453,6 +1490,18 @@ p.project__description {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 480px) {
+  .policy__label {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .policy-text {
+    font-size: 12px;
+  }
+}
+
 .modal__icon {
   position: absolute;
   top: 50%;
@@ -1479,7 +1528,6 @@ p.project__description {
 }
 
 .modal__textarea {
-  width: 448px;
   height: 120px;
 }
 
