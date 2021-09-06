@@ -30,27 +30,81 @@
 
             <div class="logo_head"><a href="./index.html" class="logo">Web<span class="logo__dark ">Studio</span></a></div>
 
-            <!-- кнопка меню от 480px -->
+              <!-- кнопка меню от 480px -->
 
-            <button type="button" class="menu-button is-open" js-menu-container>
-              <svg width="40" height="40" aria-label="Переключатель мобильного окна">
-                <use class="icon-cross" href="./img/icon.svg#icon-cross" js-close-menu></use>
-                <use class="icon-menu" href="./img/icon.svg#icon-menu" js-open-menu></use>
-              </svg>
-            </button>
+              <div class="logo-burger" id="mobile-menu">
+                <button type="button" class="menu-button js-menu-container" aria-expanded="false" aria-controls="menu-container">
+                  <svg width="40" height="40" aria-label="Переключатель мобильного окна">
+                    <use class="icon-cross js-close-menu" href="./img/icon.svg#icon-cross"></use>
+                    <use class="icon-menu js-open-menu" href="./img/icon.svg#icon-menu"></use>
+                  </svg>
+                </button>
+
+                <div class="menu-container" id="menu-container">
+                  Контейнер меню
+                </div>
 
 
 
+              </div>
 
 
 
-            <!-- button navi header -->
+         
+            </div>
 
-            <!-- <ul class="navy__list">
-              <li class="navy__item"><a href="#" class="navy__link current">Студия</a></li>
-              <li class="navy__item"><a href="./portfolio.html" class="navy__link">Портфолио</a></li>
-              <li class="navy__item"><a href="#" class="navy__link">Контакты</a></li>
-            </ul> -->
+
+              <!-- <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-close js-close-menu">
+        <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+          <use class="icon-cross" href="./images/icons.svg#close-menu"></use>
+        </svg>
+      </button> -->
+  
+              <!-- <ul class="mobile-menu__nav">
+            <li class="mobile-menu__item">
+          <a class="mobile-menu__link mobile-menu__link--current" href="./index.html">Студия</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="./portfolio.html">Портфолио</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">Контакты</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu__contacts">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link mobile-menu__link--tel" href="tel:+380961111111"> +38 096 111 11 11 </a>
+        </li>
+
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link mobile-menu__link--mail" href="mailto:info@devstudio.com"> info@devstudio.com </a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu__social">
+        <li class="mobile-menu__social-item">
+          <a class="mobile-menu__social-link" href="#">Instagram</a>
+        </li>
+        <li class="mobile-menu__social-item">
+          <a class="mobile-menu__social-link" href="#">Twitter</a>
+        </li>
+        <li class="mobile-menu__social-item">
+          <a class="mobile-menu__social-link" href="#">Facebook</a>
+        </li>
+        <li class="mobile-menu__social-item">
+          <a class="mobile-menu__social-link" href="#">LinkedIn</a>
+        </li>
+      </ul> -->
+
+              <!-- button navi header -->
+
+              <!-- <ul class="navy__list">
+                <li class="navy__item"><a href="#" class="navy__link current">Студия</a></li>
+                <li class="navy__item"><a href="./portfolio.html" class="navy__link">Портфолио</a></li>
+                <li class="navy__item"><a href="#" class="navy__link">Контакты</a></li>
+              </ul> -->
           </nav>
         
 
