@@ -32,22 +32,70 @@
 
 
 .choice__list {
-  // display: flex;
-  // justify-content: center;
-  // margin-bottom: 50px;
+  
+  @media screen and (min-width: 480px) {
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+  } 
 }
 
 .choice__list .choice__item:not(:last-child) {
-  // margin-right: 8px;
+  
+  @media screen and (min-width: 480px) {
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+    margin-right: 8px;
+    
+  } 
 }
 
 .choice__item{
-  // margin: 0px;
-  // padding: 0px;
+  
+  @media screen and (min-width: 480px) {
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+    
+    margin: 0px;
+    padding: 0px;
+  } 
 }
 
 .choice {
-  // padding: 94px 0;
-  // margin-left: auto;
-  // margin-right: auto;
+  
+  @media screen and (min-width: 480px) {
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+  } 
 }
