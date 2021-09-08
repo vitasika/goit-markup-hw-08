@@ -1081,6 +1081,14 @@ h2.clients__subtitle {
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1111,6 +1119,7 @@ h2.clients__subtitle {
   .footer__contakt {
     display: inline-block;
     margin-right: 70px;
+    text-align: start;
   }
 }
 
@@ -1129,7 +1138,9 @@ h2.clients__subtitle {
 
 @media screen and (min-width: 1200px) {
   .footer__join {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 206px;
     height: 80px;
     margin-top: 12px;
@@ -1389,15 +1400,19 @@ h2.clients__subtitle {
 .footer__adress {
   color: #ffffff;
   padding-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer__meta, .footer__content {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer__content .footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 @media screen and (min-width: 1200px) {
   .footer__content {
-    margin-bottom: 9px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1416,7 +1431,7 @@ h2.clients__subtitle {
 
 @media screen and (min-width: 1200px) {
   .footer__item {
-    margin-bottom: 9px;
+    padding: 0;
   }
 }
 
