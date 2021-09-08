@@ -91,23 +91,26 @@ p.workbox__text {
 
 .workbox__list {  
   
-  & .workbox__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-
   @media screen and (min-width: 480px) {
     
   }
-
+  
   @media screen and (min-width: 768px) {
     
-  }
+    & .workbox__item:not(:last-child) {
+    margin-bottom: 30px;
+    }
 
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    width: 1170px;
-    height: 100px;
   }
+  
+  @media screen and (min-width: 1200px) {
+    
+    display: flex;
+    justify-content: space-between;
+  
+    width: 100%;
+    height: 100px;
+  }  
 
 }
 
@@ -159,6 +162,3 @@ background-size: 70px 70px;
 background-image: url("../img/astronaut.svg");
 background-size: 70px 70px; 
 }
-
-
-
