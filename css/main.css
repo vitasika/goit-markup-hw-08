@@ -2062,6 +2062,12 @@ p.project__description {
   background-color: transparent;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 .menu-button .icon-cross {
   display: none;
 }
@@ -2075,11 +2081,6 @@ p.project__description {
 }
 
 .menu-container {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
   height: 796px;
   background-color: #ffffff;
   padding: 20px;
@@ -2087,13 +2088,24 @@ p.project__description {
   font-size: 20px;
 }
 
-.menu-container.is-open {
-  display: block;
-}
-
 @media screen and (max-width: 767px) {
   .menu-container {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  .menu-container.is-open {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
