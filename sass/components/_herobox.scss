@@ -63,6 +63,11 @@
   color: $background-head-color;
   
   // margin-bottom: 30px;
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 30px;
+
+  }
   
   @media screen and (min-width: 480px) {
     font-size: 26px;

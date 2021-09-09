@@ -32,22 +32,28 @@
 
               <!-- кнопка меню от 480px -->
 
-              <div class="logo-burger" id="mobile-menu">
-                <button class="js-open-menu menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+              <div class="logo-burger">
+
+                <button type="button" class="js-open-menu menu-button" aria-expanded="false" aria-controls="menu-container">
+
                   <svg width="40" height="40" aria-label="Переключатель мобильного окна">
-                    <!-- <use class="icon-cross js-close-menu" href="./img/icon.svg#icon-cross"></use> -->
+
+                    <use class="js-close-menu icon-cross" href="./img/icon.svg#icon-cross"></use>
                     <use class="icon-menu" href="./img/icon.svg#icon-menu"></use>
                   </svg>
                 </button>
 
-                <div class="js-menu-container menu-container" id="mobile-menu">
+                <div class="js-menu-container menu-container " id="menu-container">
 
-                  <button class="js-close-menu menu-button" type="button">
+                  <div class="navigation"></div>
+                  <div class="contacts"></div>
+
+                  <!-- <button class="js-close-menu menu-button" type="button">
                     <svg width="40" height="40" aria-label="Переключатель мобильного окна">
                       <use class="icon-cross" href="./img/icon.svg#icon-cross"></use>
-                      <!-- <use class="icon-menu js-open-menu" href="./img/icon.svg#icon-menu"></use> -->
+                      <use class="icon-menu js-open-menu" href="./img/icon.svg#icon-menu"></use>
                     </svg>
-                  </button>
+                  </button> -->
 
 
 
@@ -570,11 +576,13 @@
 
             <div class="footer__send">
               <button type="submit" class="footer__submit">                
-                <span class="footer__title">Подписаться</span>
+                <div class="footer__btn--icon">
+                  <span class="footer__title">Подписаться</span>
 
                 <svg class="footer__icon">
                   <use href="./img/icon.svg#icon-icon-send-white"></use>
                 </svg>  
+                </div>
               
               </button>
               

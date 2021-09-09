@@ -3,6 +3,11 @@
   width: 100%;
   background: $background-comand-color;
 
+  @media screen and (max-width: 479px) {
+    height: 519px;
+  }
+  
+
   @media screen and (min-width: 480px) {
     height: 519px; 
     padding-top: 60px;
@@ -43,6 +48,12 @@
     fill: $second-text-color;
   }
 
+  @media screen and (max-width: 479px) {
+    
+    height: 92px;
+
+  }
+
 
   @media screen and (min-width: 480px) {
     width: 210px;
@@ -76,6 +87,11 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  @media screen and (max-width: 479px) {
+  width: calc((100% - 2 * 15px) / 1);
+    margin: 15px;
+  }
+
   @media screen and (min-width: 480px) {
     
   }
@@ -89,6 +105,12 @@
 }
 
 .clients__list{
+
+  @media screen and (max-width: 479px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 
   @media screen and (min-width: 480px) {
     display: flex;
@@ -113,6 +135,11 @@
 .clients__nane {  
   height: 92px;
   background: #ffffff; 
+
+  @media screen and (max-width: 479px) {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 
   @media screen and (min-width: 480px) {
     flex-basis: calc((100% - 4 * 15px) / 2);
