@@ -302,6 +302,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .logo-burger {
+    display: none;
+  }
+}
+
 .herobox {
   background: #2f303a;
 }
@@ -675,6 +681,13 @@ h2.work__subtitle {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .team {
     padding-top: 94px;
@@ -718,6 +731,16 @@ p.team__text {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .team__list {
     display: -webkit-box;
@@ -749,6 +772,12 @@ p.team__text {
 }
 
 @media screen and (min-width: 480px) {
+  .team__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -964,6 +993,17 @@ h2.team__subtitle, h2.clients__subtitle {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .clients__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -30px;
   }
 }
 

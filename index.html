@@ -28,12 +28,41 @@
         <div class="navy">
           <nav class="navy__block">
           
-            <!-- logo main and footer -->
-
-            
+            <!-- logo main and footer -->            
 
             <div class="logo_head"><a href="./index.html" class="logo">Web<span class="logo__dark ">Studio</span></a></div>
 
+            
+            <!-- кнопка меню от 480px -->
+            <div class="logo-burger">
+              
+              <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="menu-container">
+                
+                <svg width="40" height="40" aria-expanded="false" aria-label="Переключатель мобильного окна" aria-controls="mobile-menu">
+                  
+                  <use class="menu-button__menu" href="./img/icon.svg#icon-menu"></use>
+                  <use class="menu-button__cross" href="./img/icon.svg#icon-cross"></use>
+                </svg>
+              </button>
+              
+              <div class="menu-container js-menu-container" id="mobil-menu">
+                
+                <button class="menu-toggles js-close-menu">
+                  <svg width="40" height="40" aria-expanded="false" aria-label="Закрытие мобильного меню" aria-controls="close-menu">
+                    <use class="close-menu_cross" href="./img/icon.svg#icon-cross"></use>                    
+                  </svg>
+                  
+                </button>
+                
+                <div class="navigation"></div>
+                <div class="contacts"></div>
+                Контейнер меню
+              </div>
+              
+              
+            </div>
+            
+            
             <!-- button navi header -->
 
             <div class="navy__nav">
@@ -44,37 +73,6 @@
               </ul>
 
             </div>
-            
-            <!-- кнопка меню от 480px -->
-            <div class="logo-burger">
-
-              <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="menu-container">
-
-                <svg width="40" height="40" aria-expanded="false" aria-label="Переключатель мобильного окна" aria-controls="mobile-menu">
-
-                  <use class="menu-button__menu" href="./img/icon.svg#icon-menu"></use>
-                  <use class="menu-button__cross" href="./img/icon.svg#icon-cross"></use>
-                </svg>
-              </button>
-
-              <div class="menu-container js-menu-container" id="mobil-menu">
-
-                <button class="menu-toggles js-close-menu">
-                  <svg width="40" height="40" aria-expanded="false" aria-label="Закрытие мобильного меню" aria-controls="close-menu">
-                    <use class="close-menu_cross" href="./img/icon.svg#icon-cross"></use>                    
-                  </svg>
-
-                </button>
-
-                <div class="navigation"></div>
-                <div class="contacts"></div>
-                Контейнер меню
-              </div>
-
-
-            </div>
-
-            
 
       
 
