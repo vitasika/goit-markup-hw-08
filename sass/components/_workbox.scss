@@ -90,6 +90,11 @@ p.workbox__text {
 
 
 .workbox__list {  
+
+  @media screen and (max-width: 479px) {
+    padding-top: 60px;
+  }
+  
   
   @media screen and (min-width: 480px) {
     

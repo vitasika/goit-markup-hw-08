@@ -1,17 +1,21 @@
 
-.menu-button{
+.menu-toggle{
     display: inline-flex;
     margin: 0;
     padding: 0;
     border: none;    
     background-color: transparent;
+
+    &:hover, &:focus{
+      fill: $hover-focus-color;
+    }
     
     @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
-.menu-button .icon-cross{
+.mmenu-toggle .icon-cross{
     display: none;
 }
 

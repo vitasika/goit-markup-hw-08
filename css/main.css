@@ -518,6 +518,12 @@ p.workbox__text {
   display: none;
 }
 
+@media screen and (max-width: 479px) {
+  .workbox__list {
+    padding-top: 60px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .workbox__list .workbox__item:not(:last-child) {
     margin-bottom: 30px;
@@ -835,7 +841,7 @@ h2.team__subtitle, h2.clients__subtitle {
 
 @media screen and (max-width: 479px) {
   .clients {
-    height: 519px;
+    height: 569px;
   }
 }
 
@@ -1041,6 +1047,12 @@ h2.clients__subtitle {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+@media screen and (max-width: 479px) {
+  h2.clients__subtitle {
+    padding-top: 60px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -2052,7 +2064,7 @@ p.project__description {
   background-origin: border-box;
 }
 
-.menu-button {
+.menu-toggle {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -2062,13 +2074,17 @@ p.project__description {
   background-color: transparent;
 }
 
+.menu-toggle:hover, .menu-toggle:focus {
+  fill: #188CE8;
+}
+
 @media screen and (min-width: 768px) {
-  .menu-button {
+  .menu-toggle {
     display: none;
   }
 }
 
-.menu-button .icon-cross {
+.mmenu-toggle .icon-cross {
   display: none;
 }
 

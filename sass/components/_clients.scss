@@ -4,7 +4,7 @@
   background: $background-comand-color;
 
   @media screen and (max-width: 479px) {
-    height: 519px;
+    height: 569px;
   }
   
 
@@ -221,6 +221,11 @@ h2.clients__subtitle {
   text-align: center;
   letter-spacing: 0.03em;
   color: $primary-text-color;
+
+  @media screen and (max-width: 479px) {
+    padding-top: 60px;
+    
+  }
 
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
