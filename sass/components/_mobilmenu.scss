@@ -1,49 +1,76 @@
 
-.menu-toggle{
+.menu-toggle {
     display: inline-flex;
     margin: 0;
     padding: 0;
     border: none;    
     background-color: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover, &:focus{
+    &:hover, 
+    &:focus{
       fill: $hover-focus-color;
+      outline: none;
+    }
+
+    &.is-open .menu-button__menu{
+      display: none;
+    }
+
+    &.is-open .menu-button__cross{
+      display: block;
     }
     
     @media screen and (min-width: 768px) {
+      display: none;
+    }
+}
+
+.menu-button__cross{
+  display: none;
+}
+
+.js-close-menu{
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover, 
+  &:focus{
+    fill: $hover-focus-color;
+    outline: none;
+  }  
+
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
-.mmenu-toggle .icon-cross{
-    display: none;
-}
-
-.menu-button.is-open .icon-cross{
-    display: block;
-}
-
-.menu-button.is-open .icon-menu{
-    display: none;
-}
-
 .menu-container {  
-  height: 796px;
-  background-color: $background-head-color;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
- 
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 
     @media screen and (max-width: 767px){
         display: none;
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
         width: 100%;
 
-        &.is-open{
+        height: 100vh;
+        background-color: $background-head-color;
+        padding: 48px 40px;
+        text-align: center;
+        font-size: 20px;
+
+        &.is-open {
         display: block;
+        z-index: 100;
+        min-height: 500px;
         }
     }
 
