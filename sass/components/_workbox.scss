@@ -103,6 +103,10 @@ p.workbox__text {
   }
   
   @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -30px;
+    
     
     & .workbox__item:not(:last-child) {
     margin-bottom: 30px;
@@ -141,8 +145,10 @@ p.workbox__text {
     width: 100%;
   }
   
-  @media screen and (min-width: 768px) {
-    
+  @media screen and (min-width: 768px) {    
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+
   }
   
   @media screen and (min-width: 1200px) {

@@ -582,6 +582,14 @@ p.workbox__text {
 }
 
 @media screen and (min-width: 768px) {
+  .workbox__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -30px;
+  }
   .workbox__list .workbox__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -619,6 +627,13 @@ p.workbox__text {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .workbox__item {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .workbox__item {
     width: 270px;
@@ -646,15 +661,29 @@ p.workbox__text {
   background-size: 70px 70px;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 1199px) {
   .work {
     display: none;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   .work {
-    display: none;
+    padding-bottom: 94px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .work__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .work__list .work__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -675,8 +704,29 @@ p.workbox__text {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 1200px) {
+  .work__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+  }
+}
+
 .work__pic {
   position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .work__subtitle {
+    margin-bottom: 50px;
+  }
 }
 
 h2.work__subtitle {
@@ -712,7 +762,6 @@ h2.work__subtitle {
   .team {
     padding-top: 60px;
     padding-bottom: 60px;
-    height: 1285px;
   }
 }
 
@@ -764,6 +813,9 @@ p.team__text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -30px;
   }
 }
 
@@ -797,15 +849,16 @@ p.team__text {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 479px) {
   .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .team__item:not(:last-child) {
-    margin-bottom: 30px;
+  .team__item {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
   }
 }
 
