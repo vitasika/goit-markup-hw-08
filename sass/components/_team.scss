@@ -14,7 +14,8 @@
 
   @media screen and (min-width: 768px) {
     padding-top: 60px;
-     padding-bottom: 60px;  
+    padding-bottom: 60px;
+    height: 1285px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -56,6 +57,7 @@ p.team__text {
   }
 
   @media screen and (min-width: 768px) {
+
   }
 
   @media screen and (min-width: 1200px) {
@@ -74,12 +76,7 @@ p.team__text {
   @media screen and (min-width: 768px) {
 
     display: flex;
-
-    flex-basis: calc((100% - 60px) / 2);
-
-    // & .team__item:not(:last-child) {
-    //   margin-right: 30px;
-    // }
+    
 
   }
 
