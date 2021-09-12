@@ -2404,11 +2404,11 @@ p.project__description {
   color: currentColor;
 }
 
-.social_mobi {
+.social-mobi {
   text-align: start;
 }
 
-.social__list {
+.social-mobi__list {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -2420,19 +2420,19 @@ p.project__description {
 }
 
 @media screen and (max-width: 767px) {
-  .social__list {
+  .social-mobi__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
 
-.social__item:not(:last-child) {
-  border-right: 2px solid rgba(33, 33, 33, 0.2);
+.social-mobi__item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
   margin-right: 10px;
 }
 
-.social__link {
+.social-mobi__link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
