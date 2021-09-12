@@ -20,29 +20,109 @@
 
   <body>
     <header class="header">
+
       <div class="container">
+
         <div class="navy">
           <nav class="navy__block">
           
-            <!-- logo main and footer -->
+            <!-- logo main and footer -->            
 
-            <a href="./index.html" class="logo">Web<span class="logo__dark">Studio</span></a>
+            <div class="logo_head"><a href="./index.html" class="logo">Web<span class="logo__dark ">Studio</span></a></div>
 
+            
+            <!-- кнопка меню от 480px -->
+            <div class="logo-burger">
+              
+              <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="menu-container">
+                
+                <svg width="40" height="40" aria-expanded="false" aria-label="Переключатель мобильного окна" aria-controls="mobile-menu">
+                  
+                  <use class="menu-button__menu" href="./img/icon.svg#icon-menu"></use>
+                  <use class="menu-button__cross" href="./img/icon.svg#icon-cross"></use>
+                </svg>
+              </button>
+              
+              <div class="menu-container js-menu-container" id="mobil-menu">
+                
+                <button class="menu-toggles js-close-menu">
+                  <svg width="40" height="40" aria-expanded="false" aria-label="Закрытие мобильного меню" aria-controls="close-menu">
+                    <use class="close-menu_cross" href="./img/icon.svg#icon-cross"></use>                    
+                  </svg>
+                  
+                </button>
+                
+                <div class="navigation">
+
+                  <ul class="navigation__list">
+                    <li class="navigation__item"><a href="./index.html" class="navigation__link">Студия</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link current__mobil">Портфолио</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+                  </ul>
+
+                </div>
+
+                <div class="contacts">
+
+                  <ul class="contacts__list">
+
+                    <li class="contacts_tel">
+                      <a href="tel:+380961111111" class="contacts__links-tel">
+                        +38 096 111 11 11
+                        </a>
+                      </li>
+
+                    <li class="contacts__adress">
+                      <a href="mailto:info@devstudio.com" class="contacts__links-mail"> 
+                        info@devstudio.com
+                      </a>
+                    </li>
+                  </ul>
+
+                
+
+                  <div class="social-mobi">
+
+                    <ul class="social-mobi__list">
+                      <li class="social-mobi__item">
+                        <a class="social-mobi__link" href="#">Instagram</a>
+                      </li>
+                      <li class="social-mobi__item">
+                        <a class="social-mobi__link" href="#">Twitter</a>
+                      </li>
+                      <li class="social-mobi__item">
+                        <a class="social-mobi__link" href="#">Facebook</a>
+                      </li>
+                      <li class="social-mobi__item">
+                        <a class="social-mobi__link" href="#">LinkedIn</a>
+                      </li>
+
+                    </ul>
+
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            
+            
             <!-- button navi header -->
 
-            <ul class="navy__list">
-              <li class="navy__item"><a href="./index.html" class="navy__link">Студия</a></li>
-              <li class="navy__item"><a href="./portfolio.html" class="navy__link current">Портфолио</a></li>
-              <li class="navy__item"><a href="#" class="navy__link">Контакты</a></li>
-            </ul>
+            <div class="navy__nav">
+              <ul class="navy__list">
+                <li class="navy__item"><a href="./index.html" class="navy__link">Студия</a></li>
+                <li class="navy__item"><a href="./portfolio.html" class="navy__link current">Портфолио</a></li>
+                <li class="navy__item"><a href="#" class="navy__link">Контакты</a></li>
+              </ul>
+
+            </div>
+
           </nav>
         
 
           <!-- contakt header -->
 
-          <div>
+          <div class="navy__post">            
             <ul class="navy__contakt">
-
               <li class="navy__adress">
                 <a href="mailto:info@devstudio.com" class="navy__links"> 
                   <svg class="navy__mail"> 
@@ -62,13 +142,11 @@
               </li>
 
             </ul>
-
           </div>
 
         </div>
 
       </div>
-
     </header>
 
     <main>
@@ -369,5 +447,17 @@
 
       </div>
     </footer>
+
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+
   </body>
 </html>

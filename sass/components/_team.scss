@@ -115,7 +115,7 @@ p.team__text {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
 
     &:not(:last-child) {
     margin-bottom: 30px;
@@ -123,13 +123,11 @@ p.team__text {
 
   }
 
-  @media screen and (max-width: 480px) {
-
-    &:not(:last-child) {
-    margin-bottom: 30px;
-    }
-
-  }
+  // @media screen and (max-width: 480px) {
+  //   &:not(:last-child) {
+  //   margin-bottom: 30px;
+  //   }
+  // }
 
   @media screen and (min-width: 768px) {
 
