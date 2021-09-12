@@ -33,7 +33,10 @@
 
 .choice__list {
   
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
     
   }
   
@@ -88,7 +91,9 @@
     
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
     
   }
   

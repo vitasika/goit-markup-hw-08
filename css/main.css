@@ -100,6 +100,13 @@ textarea {
   color: #2196f3;
 }
 
+@media screen and (min-width: 480px) {
+  .navy__link {
+    position: relative;
+    display: block;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .navy__link {
     position: relative;
@@ -184,6 +191,13 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) {
+  .navy__mail {
+    width: 14px;
+    height: 14px;
+  }
+}
+
 .navy__phone {
   width: 16px;
   height: 16px;
@@ -193,18 +207,26 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) {
+  .navy__phone {
+    width: 14px;
+    height: 14px;
+  }
+}
+
 /*------------------ Header box ------------------*/
 .header {
   background: #ffffff;
   border-bottom: 1px solid #ececec;
   position: relative;
-  min-height: 60px;
   position: relative;
+  min-height: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .header {
     min-width: 768px;
+    height: 80px;
   }
 }
 
@@ -1708,6 +1730,17 @@ h2.clients__subtitle {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 767px) {
+  .choice__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .choice__list {
     display: -webkit-box;
@@ -1743,6 +1776,13 @@ h2.clients__subtitle {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .choice {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .choice {
     padding: 94px 0;
@@ -1767,9 +1807,19 @@ h2.clients__subtitle {
   }
 }
 
+.project__item {
+  background: #ffffff;
+}
+
 @media screen and (min-width: 480px) {
   .project__item {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -1778,7 +1828,6 @@ h2.clients__subtitle {
     width: calc((100% - 60px) / 2);
     margin-right: 30px;
     margin-bottom: 30px;
-    background: #ffffff;
   }
   .project__item:nth-last-child(-n + 2) {
     margin-bottom: 0;

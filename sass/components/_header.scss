@@ -35,7 +35,8 @@
   }
   
   @media screen and (min-width: 480px) {
-    
+     position: relative;
+    display: block;
   }
   
   @media screen and (min-width: 768px) {
@@ -116,14 +117,27 @@
   height: 16px;
   margin-right: 10px;
   fill: $p-text-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    width: 14px;
+  height: 14px;
+  }
+}
+  
 
 .navy__phone{
   width: 16px;
   height: 16px;
   margin-right: 10px;
   fill: $p-text-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    width: 14px;
+    height: 14px;
+  }
+}
 
 /*------------------ Header box ------------------*/
 
@@ -132,11 +146,12 @@
   background: $background-head-color;
   border-bottom: 1px solid #ececec;
   position: relative;
-  min-height: 60px;
   position: relative;
+  min-height: 60px;
 
   @media screen and (min-width: 768px) {
     min-width: 768px;
+    height: 80px;
     
   }
 

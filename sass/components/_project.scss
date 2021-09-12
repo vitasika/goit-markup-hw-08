@@ -18,16 +18,24 @@
 }
 
 .project__item {
+  background: #ffffff;
   
   @media screen and (min-width: 480px) {
     width: 100%;
   }
+
+ @media screen and (max-width: 767px) {
+
+    &:not(:last-child) {
+    margin-bottom: 30px;
+    }
+
+  } 
   
   @media screen and (min-width: 768px) {
     width: calc((100% - 60px) / 2);
     margin-right: 30px;
     margin-bottom: 30px;
-    background: #ffffff;
   
     &:nth-last-child(-n + 2) {
     margin-bottom: 0;
