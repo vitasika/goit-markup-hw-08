@@ -78,7 +78,7 @@ p.workbox__text {
   }
 
   @media screen and (min-width: 1200px) {
-    margin-bottom: 94px;
+    
   }
 }
 
@@ -108,19 +108,16 @@ p.workbox__text {
     margin: -30px;
     
     
-    & .workbox__item:not(:last-child) {
-    margin-bottom: 30px;
-    }
-
+    
   }
   
   @media screen and (min-width: 1200px) {
     
     display: flex;
-    justify-content: space-between;
-  
+    flex-wrap: nowrap;
     width: 100%;
     height: 100px;
+    margin: 0;
   }  
 
 }
