@@ -50,19 +50,7 @@ p.team__text {
 }
 
 .team__pic {
-
-  @media screen and (min-width: 480px) {
-     width: 100%;
-  }
-
-  @media screen and (min-width: 768px) {
-
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 270px;
-  }
-  
+  width: 100%;
 }
 
 .team__list {
@@ -76,22 +64,16 @@ p.team__text {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    
-
   }
 
   @media screen and (min-width: 1200px) {
-
     display: flex;
+    flex-wrap: nowrap;
 
     & .team__item:not(:last-child) {
       margin-right: 30px;
     }
-  }
-
-  
-
-  
+  }  
 }
 
 .team__subtitle, .clients__subtitle {
@@ -141,6 +123,8 @@ p.team__text {
   }
 
   @media screen and (min-width: 1200px) {
+
+    margin: 0;
 
     &:not(:last-child) {
     margin-bottom: 0px;
