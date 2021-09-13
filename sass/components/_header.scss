@@ -186,7 +186,7 @@
 
 .navy__block {
 
-   @media screen and (max-width:479px) {
+  @media screen and (max-width:479px) {
     height: 60px;
     display: flex;
     align-items: center;
@@ -205,15 +205,13 @@
     }
     
     @media screen and (min-width: 768px) {
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
       
-      & .logo-burger{
-        display: none;
-      }
-   
-    
-  }
+    & .logo-burger{
+      display: none;
+  }    
+}
   
   @media screen and (min-width: 1200px) {
     height: 60px;
@@ -226,31 +224,18 @@
 }
 
 .navy__nav {
-
    @media screen and (max-width: 767px) {
     display: none;  
-  }
-
-  @media screen and (min-width: 768px) {
-    
-  }
-  
+  }  
 }
 
-.navy__post{
-  
+.navy__post{  
   @media screen and (max-width: 767px) {
     display: none;  
-  }
-  
+  }  
 }
 
 .navy__list {
-  
-  @media screen and (min-width: 480px) {
-    
-  }
-  
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -260,20 +245,10 @@
     margin-right: 50px;
     }
   }
-  
-  @media screen and (min-width: 1200px) {
-    
-
-  } 
-
 }
 
 
 .navy__contakt{
-  @media screen and (min-width: 480px) {
-    
-  }
-  
   @media screen and (max-width: 1199px) {
 
     display: flex;
@@ -282,7 +257,7 @@
   }
   
   @media screen and (min-width: 1200px) {
-    display: flex;
+    // display: flex;
     
     & .navy__adress + .navy__adress {
       margin-left: 50px;

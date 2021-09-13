@@ -347,11 +347,6 @@ textarea {
 }
 
 @media screen and (min-width: 1200px) {
-  .navy__contakt {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .navy__contakt .navy__adress + .navy__adress {
     margin-left: 50px;
   }
