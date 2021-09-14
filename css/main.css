@@ -179,6 +179,9 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -347,6 +350,11 @@ textarea {
 }
 
 @media screen and (min-width: 1200px) {
+  .navy__contakt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .navy__contakt .navy__adress + .navy__adress {
     margin-left: 50px;
   }
@@ -416,7 +424,7 @@ textarea {
 @media screen and (min-width: 1200px) {
   .overlay {
     height: 600px;
-    min-width: 1600px;
+    width: 100%;
   }
 }
 
@@ -1252,7 +1260,7 @@ h2.clients__subtitle {
 
 @media screen and (min-width: 1200px) {
   .footer {
-    width: 1600px;
+    width: 100%;
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1379,7 +1387,7 @@ h2.clients__subtitle {
 
 @media screen and (min-width: 1200px) {
   .footer__subtitle {
-    width: 1200px;
+    text-align: start;
   }
 }
 
@@ -1660,6 +1668,14 @@ h2.clients__subtitle {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
 .footer__adress,
 .footer__meta {
   font-family: Roboto;
@@ -1847,19 +1863,16 @@ h2.clients__subtitle {
   background: #ffffff;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .project__item {
     width: 100%;
   }
-}
-
-@media screen and (max-width: 767px) {
   .project__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .project__item {
     width: calc((100% - 30px) / 2);
     margin-right: 30px;
