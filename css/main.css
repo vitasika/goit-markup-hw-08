@@ -49,7 +49,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    width: 768px;
   }
 }
 
@@ -997,15 +997,15 @@ h2.team__subtitle, h2.clients__subtitle {
 
 @media screen and (min-width: 480px) {
   .clients {
-    height: 519px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .clients {
-    height: 397px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -1812,7 +1812,7 @@ h2.clients__subtitle {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .choice {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1859,7 +1859,7 @@ h2.clients__subtitle {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .project__item {
     width: calc((100% - 30px) / 2);
     margin-right: 30px;
@@ -1878,7 +1878,6 @@ h2.clients__subtitle {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    background: #ffffff;
   }
   .project__item:nth-last-child(-n + 3) {
     margin-bottom: 0;
@@ -1897,6 +1896,19 @@ h2.clients__subtitle {
 .project__link:hover, .project__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+@media screen and (max-width: 1199px) {
+  .project__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1928,6 +1940,14 @@ p.project__description {
 .project__card {
   padding: 20px 25px;
   border: 1px solid #eeeeee;
+}
+
+@media screen and (max-width: 1199px) {
+  .project__card {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
 }
 
 .project__box {
