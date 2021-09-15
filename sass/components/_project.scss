@@ -37,10 +37,16 @@
     margin-bottom: 0;
       }
   
+    }
+    
+    @media screen and (max-width: 1199px){
     &:nth-child(2n) {
     margin-right: 0;
       }    
+
   }
+
+
 
   @media screen and (min-width: 1200px) {  
     
@@ -118,18 +124,13 @@ p.project__description {
 
 }
 
-.project__title {
-  // display: inline-block;
-}
+// .project__title {
+//   display: inline-block;
+// }
 
 .project__card {
   padding: 20px 25px;
-  border: 1px solid #eeeeee;
-
-   @media screen and (max-width: 1199px) {
-    flex-grow: 1;
-  }
-  
+  border: 1px solid #eeeeee;  
 }
 
 
