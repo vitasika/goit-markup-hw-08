@@ -448,11 +448,8 @@
 }
 
 .footer__btn--icon{
-
-  @media screen and (max-width: 479px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
