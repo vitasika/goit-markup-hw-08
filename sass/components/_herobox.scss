@@ -42,18 +42,14 @@
       screen and (min-resolution: 192dpi), 
       screen and (min-resolution: 2dppx) {
 
-      .overlay {
-        background-image: url(../../img/mobil/header_mobil@2x.jpg)
-      }
+        background-image: url(../../img/mobil/header_mobil@2x.jpg)    
     } 
 
     @media screen and (min-device-pixel-ratio:3), 
       screen and (min-resolution: 288dpi), 
       screen and (min-resolution: 3dppx) {
 
-      .overlay {
-        background-image: url(../../img/mobil/header_mobil@3x.jpg)
-      }
+        background-image: url(../../img/mobil/header_mobil@3x.jpg)      
     }
 
   }
@@ -66,18 +62,14 @@
       screen and (min-resolution: 192dpi), 
       screen and (min-resolution: 2dppx) {
 
-      .overlay {
         background-image: url(../../img/tablet/header_tablet@2x.jpg)
-      }
     } 
 
     @media screen and (min-device-pixel-ratio:3), 
       screen and (min-resolution: 288dpi), 
       screen and (min-resolution: 3dppx) {
 
-      .overlay {
         background-image: url(../../img/tablet/header_tablet@3x.jpg)
-      }
     }
 
   }
@@ -91,18 +83,14 @@
       screen and (min-resolution: 192dpi), 
       screen and (min-resolution: 2dppx) {
 
-      .overlay {
         background-image: url(../../img/desktop/header_desktop@2x.jpg)
-      }
     } 
 
     @media screen and (min-device-pixel-ratio:3), 
       screen and (min-resolution: 288dpi), 
       screen and (min-resolution: 3dppx) {
 
-      .overlay {
         background-image: url(../../img/desktop/header_desktop@3x.jpg)
-      }
     }
 
   }
