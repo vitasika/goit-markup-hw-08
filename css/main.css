@@ -182,6 +182,8 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 14px;
+    line-height: 1.14;
   }
 }
 
@@ -400,8 +402,8 @@ textarea {
 .overlay {
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../../img/baner-hero.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../../img/baner-hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/baner-hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/baner-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -416,13 +418,13 @@ textarea {
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../../img/mobil/header_mobil@2x.jpg), url(../../img/mobil/header_mobil@2x.webp);
+    background-image: url(../img/mobil/header_mobil@2x.jpg), url(../img/mobil/header_mobil@2x.webp);
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 3), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 480px) and (min-resolution: 288dpi), screen and (min-width: 480px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../../img/mobil/header_mobil@3x.jpg), url(../../img/mobil/header_mobil@3x.webp);
+    background-image: url(../img/mobil/header_mobil@3x.jpg), url(../img/mobil/header_mobil@3x.webp);
   }
 }
 
@@ -435,13 +437,13 @@ textarea {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../../img/tablet/header_tablet@2x.jpg), url(../../img/tablet/header_tablet@2x.webp);
+    background-image: url(../img/tablet/header_tablet@2x.jpg), url(../img/tablet/header_tablet@2x.webp);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../../img/tablet/header_tablet@3x.jpg), url(../../img/tablet/header_tablet@3x.webp);
+    background-image: url(../img/tablet/header_tablet@3x.jpg), url(../img/tablet/header_tablet@3x.webp);
   }
 }
 
@@ -454,13 +456,13 @@ textarea {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../../img/desktop/header_desktop@2x.jpg), url(../../img/desktop/header_desktop@2x.webp);
+    background-image: url(../img/desktop/header_desktop@2x.jpg), url(../img/desktop/header_desktop@2x.webp);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (min-resolution: 288dpi), screen and (min-width: 1200px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../../img/desktop/header_desktop@3x.jpg), url(../../img/desktop/header_desktop@3x.webp);
+    background-image: url(../img/desktop/header_desktop@3x.jpg), url(../img/desktop/header_desktop@3x.webp);
   }
 }
 
