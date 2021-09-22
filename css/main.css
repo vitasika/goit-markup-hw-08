@@ -224,20 +224,11 @@ textarea {
   background: #ffffff;
   border-bottom: 1px solid #ececec;
   position: relative;
-  position: relative;
-  min-height: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    min-width: 768px;
     height: 80px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .header {
-    min-width: 1200px;
   }
 }
 
@@ -443,7 +434,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../img/mobil/header_mobil@3x.jpg), url(../img/mobil/header_mobil@3x.webp);
+    background-image: url(../img/tablet/header_tablet@3x.jpg), url(../img/mobil/header_tablet@3x.webp);
   }
 }
 
@@ -614,13 +605,19 @@ h3.workbox__subtitle {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: #212121;
   margin-bottom: 10px;
 }
 
 @media screen and (min-width: 480px) {
   h3.workbox__subtitle {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h3.workbox__subtitle {
+    text-align: start;
   }
 }
 
@@ -631,7 +628,7 @@ p.workbox__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--p-text-color);
+  color: #757575;
 }
 
 @media screen and (min-width: 480px) {
