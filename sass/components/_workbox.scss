@@ -48,6 +48,11 @@ h3.workbox__subtitle {
   color: $p-text;
   margin-bottom: 10px;
 
+  @media screen and (max-width: 479px) {
+    text-align: center;
+    margin-top: 30px;
+  }
+
   @media screen and (min-width: 480px) {
     text-align: center;
     margin-top: 30px;
