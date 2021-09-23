@@ -612,6 +612,7 @@ h3.workbox__subtitle {
 @media screen and (min-width: 480px) {
   h3.workbox__subtitle {
     text-align: center;
+    margin-top: 30px;
   }
 }
 
@@ -706,7 +707,6 @@ p.workbox__text {
   padding: 25px 0;
   background: #F5F4FA;
   border-radius: 4px;
-  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1235,12 +1235,6 @@ h2.clients__subtitle {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
-
-@media screen and (max-width: 479px) {
-  h2.clients__subtitle {
-    padding-top: 60px;
-  }
 }
 
 @media screen and (min-width: 480px) {
