@@ -354,6 +354,18 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  .navy__adress:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .navy__adress:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .logo-burger {
     display: none;
   }
@@ -1319,7 +1331,6 @@ h2.clients__subtitle {
 @media screen and (min-width: 480px) {
   .footer__contakt {
     text-align: center;
-    margin-bottom: 60px;
   }
 }
 
