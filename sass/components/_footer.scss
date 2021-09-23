@@ -71,7 +71,7 @@
 
 .footer__join {  
   color: $second-text-logo-color;
-  width: 206px;
+  // width: 206px;
   // height: 80px;
 
   @media screen and (max-width: 479px) {
@@ -135,7 +135,7 @@
   
   @media screen and (min-width: 480px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   @media screen and (min-width: 768px) {
@@ -148,6 +148,17 @@
     
   }
   
+}
+
+.footer__list--item{
+
+  @media screen and (max-width: 767px) {
+
+    &:not(:last-child) {
+    margin-right: 10px;
+    }
+
+  }
 }
 
 .footer__social {
@@ -201,7 +212,7 @@
   }
 
   @media screen and (min-width: 480px) {
-    padding-top: 60px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
   }
@@ -374,7 +385,7 @@
   @media screen and (min-width: 480px) {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   
   @media screen and (min-width: 768px) {
@@ -400,7 +411,7 @@
 
 .footer__adress {
   color: $background-head-color;
-  padding-top: 20px;
+  margin-top: 20px;
   margin-bottom: 8px;
 }
 
@@ -409,6 +420,7 @@
 }
 
 .footer__content {
+  
   & .footer__item:not(:last-child) {
       margin-bottom: 8px;
     }
@@ -432,17 +444,20 @@
 
 .footer__item{
 
+  &:not(:last-child) {
+    margin-bottom: 8px;
+    }
+
   @media screen and (min-width: 480px) {
-    padding-top: 8px;
+    
   }
 
   @media screen and (min-width: 768px) {
-    padding: 0;
+    
   }
 
   @media screen and (min-width: 1200px) {
-    padding: 0;
-    // margin-bottom: 9px;
+    
   }
 }
 
