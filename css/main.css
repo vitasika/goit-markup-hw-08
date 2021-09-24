@@ -411,13 +411,13 @@ textarea {
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../img/mobil/header_mobil@2x.jpg), url(../img/mobil/header_mobil@2x.webp);
+    background-image: url(../img/baner-hero.jpg), url(../img/mobil/header_mobil@2x.jpg), url(../img/mobil/header_mobil@2x.webp);
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 3), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 480px) and (min-resolution: 288dpi), screen and (min-width: 480px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../img/mobil/header_mobil@3x.jpg), url(../img/mobil/header_mobil@3x.webp);
+    background-image: url(../img/baner-hero.jpg), url(../img/mobil/header_mobil@3x.jpg), url(../img/mobil/header_mobil@3x.webp);
   }
 }
 
@@ -430,13 +430,13 @@ textarea {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../img/tablet/header_tablet@2x.jpg), url(../img/tablet/header_tablet@2x.webp);
+    background-image: url(../img/baner-hero.jpg), url(../img/tablet/header_tablet@2x.jpg), url(../img/tablet/header_tablet@2x.webp);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../img/tablet/header_tablet@3x.jpg), url(../img/tablet/header_tablet@3x.webp);
+    background-image: url(../img/baner-hero.jpg), url(../img/tablet/header_tablet@3x.jpg), url(../img/tablet/header_tablet@3x.webp);
   }
 }
 
