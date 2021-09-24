@@ -354,6 +354,13 @@ textarea {
   background: #2f303a;
 }
 
+@media screen and (max-width: 479px) {
+  .herobox {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .herobox {
     height: 400px;
