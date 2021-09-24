@@ -2054,6 +2054,13 @@ p.project__description {
   opacity: 1;
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    min-width: 320px;
+    min-height: 609px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .modal {
     min-width: 450px;
