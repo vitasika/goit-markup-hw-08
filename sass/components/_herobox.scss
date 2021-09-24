@@ -197,11 +197,19 @@
   
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
   
   &:hover, &:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: $hover-focus-color;
-    cursor: pointer;  
+    cursor: pointer; 
+    
+    
   }
 
   @media screen and (min-width: 480px) {
@@ -212,15 +220,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px 32px;
   }
 } 
 
