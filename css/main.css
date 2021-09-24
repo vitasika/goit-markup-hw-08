@@ -443,7 +443,6 @@ textarea {
 @media screen and (min-width: 1200px) {
   .overlay {
     height: 600px;
-    max-width: 1600px;
   }
 }
 
