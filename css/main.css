@@ -430,7 +430,7 @@ textarea {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../img/desktop/hheader_tablet@2x.jpg), url(../img/tablet/header_tablet@2x.webp);
+    background-image: url(../img/desktop/header_tablet@2x.jpg), url(../img/tablet/header_tablet@2x.webp);
   }
 }
 
