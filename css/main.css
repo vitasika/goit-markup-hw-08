@@ -1695,12 +1695,6 @@ h2.clients__subtitle {
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 480px) {
-  .footer__content {
-    margin-top: 20px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .footer__content {
     display: -webkit-box;
