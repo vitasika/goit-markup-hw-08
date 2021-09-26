@@ -2359,8 +2359,8 @@ p.project__description {
 
 .policy-icon {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
   margin-right: 8px;
   border: 2px solid #212121;
   border-radius: 4px;
