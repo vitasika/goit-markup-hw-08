@@ -1683,7 +1683,6 @@ h2.clients__subtitle {
 
 .footer__adress {
   color: #ffffff;
-  margin-top: 20px;
   margin-bottom: 8px;
 }
 
@@ -1693,6 +1692,12 @@ h2.clients__subtitle {
 
 .footer__content .footer__item:not(:last-child) {
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 480px) {
+  .footer__content {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
