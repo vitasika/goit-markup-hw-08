@@ -392,8 +392,7 @@
 
 .footer__adress {
   color: $background-head-color;
-  // margin-top: 20px;
-  margin-bottom: 8px;
+  
 }
 
 .footer__meta, .footer__content {
@@ -402,34 +401,33 @@
 
 .footer__content {
 
+  margin-top: 20px;
+
   & .footer__item:not(:last-child) {
       margin-bottom: 8px;
-    }
-    
-  @media screen and (min-width: 480px) {
-    margin-top: 20px;
-    
   }
   
-  @media screen and (min-width: 768px) {
-    
-  }
+  
   
   @media screen and (min-width: 1200px) {
-    // margin-bottom: 9px;
+    
     display: flex;
     flex-direction: column;
-
     
+    & .footer__item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+
   }
 }
 
-.footer__item{
+// .footer__item{
 
-  &:not(:last-child) {
-    margin-bottom: 8px;
-    }
-}
+//   &:not(:last-child) {
+//     // margin-bottom: 8px;
+//     }
+// }
 
 .footer__btn--icon{
   display: flex;

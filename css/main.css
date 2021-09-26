@@ -1683,21 +1683,18 @@ h2.clients__subtitle {
 
 .footer__adress {
   color: #ffffff;
-  margin-bottom: 8px;
 }
 
 .footer__meta, .footer__content {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__content .footer__item:not(:last-child) {
-  margin-bottom: 8px;
+.footer__content {
+  margin-top: 20px;
 }
 
-@media screen and (min-width: 480px) {
-  .footer__content {
-    margin-top: 20px;
-  }
+.footer__content .footer__item:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1710,10 +1707,9 @@ h2.clients__subtitle {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-.footer__item:not(:last-child) {
-  margin-bottom: 8px;
+  .footer__content .footer__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .footer__btn--icon {
