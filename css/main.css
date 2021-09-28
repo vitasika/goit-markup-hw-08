@@ -405,38 +405,40 @@ textarea {
 @media screen and (min-width: 480px) {
   .overlay {
     height: 400px;
-    min-width: 480px;
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../img/desktop/header_desktop@2x.jpg), url(../img/desktop/header_desktop@2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@2x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@2x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@2x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@2x.webp);
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 3), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 480px) and (min-resolution: 288dpi), screen and (min-width: 480px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../img/desktop/header_desktop@3x.jpg), url(../img/desktop/header_desktop@3x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@3x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@3x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@3x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@3x.webp);
   }
 }
 
 @media screen and (min-width: 768px) {
   .overlay {
     height: 400px;
-    min-width: 768px;
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../img/desktop/header_tablet@2x.jpg), url(../img/tablet/header_tablet@2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/tablet/header_tablet@2x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/tablet/header_tablet@2x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@2x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@2x.webp);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../img/tablet/header_tablet@3x.jpg), url(../img/tablet/header_tablet@3x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/tablet/header_tablet@3x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/tablet/header_tablet@3x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@3x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@3x.webp);
   }
 }
 
@@ -448,13 +450,15 @@ textarea {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../img/desktop/header_desktop@2x.jpg), url(../img/desktop/header_desktop@2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/desktop/header_desktop@2x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/desktop/header_desktop@2x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/desktop/header_desktop@2x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/desktop/header_desktop@2x.webp);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (min-resolution: 288dpi), screen and (min-width: 1200px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(../img/desktop/header_desktop@3x.jpg), url(../img/desktop/header_desktop@3x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/desktop/header_desktop@3x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/desktop/header_desktop@3x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/desktop/header_desktop@3x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/desktop/header_desktop@3x.webp);
   }
 }
 
@@ -2450,7 +2454,16 @@ p.project__description {
     overflow: scroll;
   }
   .menu-container.is-open {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     z-index: 100;
     min-height: 500px;
   }
@@ -2540,7 +2553,6 @@ p.project__description {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: start;
-  margin-top: 302px;
 }
 
 .contacts__list {
