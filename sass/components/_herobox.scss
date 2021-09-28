@@ -51,14 +51,14 @@
       screen and (min-resolution: 192dpi), 
       screen and (min-resolution: 2dppx) {
 
-        background-image: url(./img/mobil/header_mobil@2x.jpg), url(./img/mobil/header_mobil@2x.webp);
+        background-image: url(../img/mobil/header_mobil@2x.jpg), url(../img/mobil/header_mobil@2x.webp);
     } 
 
     @media screen and (min-device-pixel-ratio:3), 
       screen and (min-resolution: 288dpi), 
       screen and (min-resolution: 3dppx) {
 
-        background-image: url(./img/mobil/header_mobil@3x.jpg),url(./img/mobil/header_mobil@3x.webp);
+        background-image: url(../img/mobil/header_mobil@3x.jpg),url(../img/mobil/header_mobil@3x.webp);
     }
   }  
   
