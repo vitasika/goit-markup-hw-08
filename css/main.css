@@ -410,13 +410,15 @@ textarea {
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(./img/mobil/header_mobil@2x.jpg), url(./img/mobil/header_mobil@2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@2x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@2x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@2x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@2x.webp);
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 3), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 480px) and (min-resolution: 288dpi), screen and (min-width: 480px) and (min-resolution: 3dppx) {
   .overlay {
-    background-image: url(./img/mobil/header_mobil@3x.jpg), url(./img/mobil/header_mobil@3x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@3x.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(90, 92, 112, 0.4))), url(../img/mobil/header_mobil@3x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@3x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(90, 92, 112, 0.4)), url(../img/mobil/header_mobil@3x.webp);
   }
 }
 
