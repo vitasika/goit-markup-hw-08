@@ -42,33 +42,9 @@
 
   // --------------------Картинки на Mobil------------------------
 
-  // @media screen and (min-width: 480px) {
-
-  //   height: 400px;
-  //   // min-width: 480px;
-
-  //   @media screen and (min-device-pixel-ratio:2), 
-  //     screen and (min-resolution: 192dpi), 
-  //     screen and (min-resolution: 2dppx) {
-  //       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
-  //     rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@2x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), 
-  //     rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@2x.webp);
-  //   } 
-
-  //   @media screen and (min-device-pixel-ratio:3), 
-  //     screen and (min-resolution: 288dpi), 
-  //     screen and (min-resolution: 3dppx) {
-
-  //       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
-  //     rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@3x.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), 
-  //     rgba(90, 92, 112, 0.4)), url(../img/tablet/header_tablet@3x.webp);
-  //   }
-  // }  
-
   @media screen and (min-width: 480px) {
 
     height: 400px;
-    // min-width: 480px;
 
     @media screen and (min-device-pixel-ratio:2), 
       screen and (min-resolution: 192dpi), 
@@ -94,7 +70,6 @@
   @media screen and (min-width: 768px) {
 
     height: 400px;
-    // min-width: 768px;
 
     @media screen and (min-device-pixel-ratio:2), 
       screen and (min-resolution: 192dpi), 
@@ -119,7 +94,6 @@
   @media screen and (min-width: 1200px) {
 
     height: 600px;
-    // max-width: 1600px;
 
     @media screen and (min-device-pixel-ratio:2), 
       screen and (min-resolution: 192dpi), 
@@ -147,13 +121,10 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: $background-head-color;
-  
-  // margin-bottom: 30px;
+  color: $background-head-color;  
 
   @media screen and (max-width: 479px) {
     margin-bottom: 30px;
-
   }
   
   @media screen and (min-width: 480px) {
@@ -163,39 +134,22 @@
     margin-bottom: 30px;
   }
 
-  @media screen and (min-width: 768px) {
-
-  }
-
   @media screen and (min-width: 1200px) {
     font-size: 44px;
     line-height: 1.36;
     margin-bottom: 30px;
   }
-
-
 }
 
 .herobox__content{
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // min-height: 400px;
 
   @media screen and (min-width: 480px) {    
     text-align: center;
   }
-
-  @media screen and (min-width: 768px) {    
-
-  }
-
-  @media screen and (min-width: 1200px) {
-    
-  }
-
 }
 
 .herobox__button {
@@ -223,19 +177,7 @@
   &:hover, &:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: $hover-focus-color;
-    cursor: pointer; 
-    
-    
-  }
-
-  @media screen and (min-width: 480px) {
-  }
-
-  @media screen and (min-width: 768px) {
-
-  }
-
-  @media screen and (min-width: 1200px) {
+    cursor: pointer;
   }
 } 
 

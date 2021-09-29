@@ -10,8 +10,6 @@ $background-footer-color: #2f303a;
 $p-text: #212121;
 $p-text-color: #757575;
 $contakt-footer-color: rgba(255, 255, 255, 0.6);
-// $overlay-left: rgb(47, 48, 58, 0.4);
-// $overlay-right: rgb(47, 48, 58, 0.4);
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -66,9 +64,6 @@ textarea {
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
-  
-
-
 }
 
 .team + .clients{

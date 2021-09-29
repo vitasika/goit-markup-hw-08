@@ -1,23 +1,5 @@
 /*------------------ button navi header ------------------*/
 
-// .logo_head{
-  
-//   @media screen and (min-width: 480px) {
-//     display: flex;
-    
-//   }
-  
-//   @media screen and (min-width: 768px) {
-    
-//   }
-  
-//   @media screen and (min-width: 1200px) {
-//      padding-top: 16px;
-//      padding-bottom: 16px;    
-//      justify-content: space-between;
-//   }
-// }
-
 .navy__link {
   font-family: Roboto;
   font-style: normal;
@@ -33,14 +15,9 @@
   &:hover, &:focus {
     color: $second-text-color;
   }
-  
-  // @media screen and (min-width: 480px) {
-  //    position: relative;
-  //   display: block;
-  // }
 
   @media screen and (max-width: 767px) {
-     display: none;
+    display: none;
   }
   
   @media screen and (min-width: 768px) {
@@ -51,10 +28,8 @@
   @media screen and (min-width: 1200px) {
     position: relative;
     display: block;  
-    
   } 
 }
-
 
 .current{
   color: $second-text-color;
@@ -99,10 +74,6 @@
     fill: $second-text-color;      
   }
   
-  @media screen and (min-width: 480px) {
-    
-  }
-  
   @media screen and (min-width: 768px) {
     font-size: 12px;
     line-height: 1.16;
@@ -114,9 +85,7 @@
     align-items: center;
     font-size: 14px;
     line-height: 1.14;
-    
-  } 
-
+  }
 }
 
 .navy__mail{
@@ -128,7 +97,7 @@
 
   @media screen and (min-width: 768px) {
     width: 14px;
-  height: 14px;
+    height: 14px;
   }
 }
   
@@ -154,41 +123,20 @@
   background: $background-head-color;
   border-bottom: 1px solid #ececec;
   position: relative;
-  // min-height: 60px;
 
   @media screen and (min-width: 768px) {
-    // min-width: 768px;
     height: 80px;
-    
   }
-
-  @media screen and (min-width: 1200px) {
-    // min-width: 1200px;
-    
-  }
-
 }
 
-// .header .navy__block {
-// }
-
 .navy {
-  @media screen and (max-width: 767px) {
-    // display: flex;
-  }
-  
+    
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    
-    
   }
-  
-  @media screen and (min-width: 1200px) {
-    
-  } 
 }
 
 .navy__block {
@@ -206,10 +154,6 @@
     align-items: center;
     justify-content: space-between;    
   }
-
-  @media screen and (max-width: 767px) {        
-      
-  }
     
   @media screen and (min-width: 768px) {
     display: flex;
@@ -224,19 +168,8 @@
     height: 60px;
     display: flex;
     align-items: center;
-    
   }
-
-
 }
-
-// .navy__nav {
-//    @media screen and (max-width: 767px) {
-//     display: none;  
-//   }  
-// }
-
-
 
 .navy__list {
   @media screen and (min-width: 768px) {
@@ -245,7 +178,7 @@
     margin-left: 88px;
     
     & .navy__item:not(:last-child) {
-    margin-right: 50px;
+      margin-right: 50px;
     }
   }
 
@@ -280,16 +213,10 @@
 
 .navy__adress{
 
-  @media screen and (min-width: 768px) {
-    // &:not(:last-child) {
-    //   margin-bottom: 10px;
-    //   }  
-  }
-
   @media screen and (max-width: 1199px) {
     &:not(:last-child) {
       margin-bottom: 10px;
-      }          
+    }          
   }
 }
 
@@ -298,7 +225,5 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
-
-
 }
 

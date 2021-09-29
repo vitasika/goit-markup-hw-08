@@ -1,15 +1,14 @@
-.team {
-  
+.team {  
   background: $background-comand-color;
 
   @media screen and (max-width: 479px) {
-     padding-top: 60px;
-     padding-bottom: 60px;    
+    padding-top: 60px;
+    padding-bottom: 60px;    
   }
 
   @media screen and (min-width: 480px) {
-     padding-top: 60px;
-     padding-bottom: 60px;    
+    padding-top: 60px;
+    padding-bottom: 60px;    
   }
 
   @media screen and (min-width: 768px) {
@@ -54,11 +53,6 @@ p.team__text {
 }
 
 .team__list {
-  
-
-  @media screen and (min-width: 480px) {
-    
-  }
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -108,8 +102,7 @@ p.team__text {
   padding-bottom: 30px;
 }
 
-.social__link{
-  
+.social__link{  
   height: 44px;
   width: 44px;
   
@@ -126,9 +119,7 @@ p.team__text {
 
 .social {
   width: 206px;
-  height: 44px;
-  
-  
+  height: 44px;  
   
   @media screen and (max-width: 479px) {    
     display: flex; 
