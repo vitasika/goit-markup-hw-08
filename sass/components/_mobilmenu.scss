@@ -138,6 +138,7 @@
 
   @media screen and (max-width: 767px) {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -146,6 +147,7 @@
   &:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     margin-right: 10px;
+    margin-bottom: 5px;
   }
 }
 
@@ -176,6 +178,8 @@
 
 .contacts_tel{
   margin-bottom: 32px;
+
+  
 }
 
 .contacts__links-tel{
@@ -183,6 +187,10 @@
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: $first-text-logo-color;
+
+  @media screen and (max-width: 449px) {
+    font-size: 27px;
+  }
 }
 
 .contacts__adress{

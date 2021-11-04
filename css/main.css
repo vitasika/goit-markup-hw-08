@@ -2525,12 +2525,15 @@ p.project__description {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
 .social-mobi__item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .social-mobi__link {
@@ -2570,6 +2573,12 @@ p.project__description {
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+
+@media screen and (max-width: 449px) {
+  .contacts__links-tel {
+    font-size: 27px;
+  }
 }
 
 .contacts__adress {
